@@ -10,4 +10,5 @@
     <string name="action_restart">Restart</string>
     <string name="restart_systemui_success">SystemUI restart command sent.</string>
     <string name="restart_systemui_failed">Failed to restart SystemUI. Check root access.</string>
+    <string name="restart_systemui_failed_with_reason">Failed to restart SystemUI: %1$s</string>
 </resources>

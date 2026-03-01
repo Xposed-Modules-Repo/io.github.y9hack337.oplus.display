@@ -16,6 +16,23 @@ An LSPosed module for Oplus/OxygenOS that automatically confirms the USB externa
 
 If it does not work right after enabling, restart SystemUI or reboot the device.
 
+## Restart SystemUI
+
+- The in-module `Restart SystemUI` button requires root (`su`) permission.
+- If you do not want to grant root, you can just reboot the phone.
+
+Manual restart command (root required):
+
+```bash
+su -c "pkill -9 -f com.android.systemui || killall com.android.systemui"
+```
+
+From PC with ADB:
+
+```bash
+adb shell su -c "pkill -9 -f com.android.systemui || killall com.android.systemui"
+```
+
 ## Credits
 
 Huge thanks to the original author and repository:
