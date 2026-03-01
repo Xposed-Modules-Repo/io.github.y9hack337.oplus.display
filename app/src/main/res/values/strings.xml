@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">跳过连接显示器弹窗</string>
+    <string name="app_name">Skip Display Confirmation</string>
+    <string name="module_description_short">Auto-confirms USB display dialog in SystemUI.</string>
+    <string name="restart_systemui_title">Restart SystemUI</string>
+    <string name="restart_systemui_hint">If module behavior does not apply immediately, restart SystemUI.</string>
+    <string name="restart_systemui_button">Restart SystemUI</string>
+    <string name="restart_systemui_confirm_title">Confirm Restart</string>
+    <string name="restart_systemui_confirm_message">Are you sure you want to restart SystemUI?</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_restart">Restart</string>
+    <string name="restart_systemui_success">SystemUI restart command sent.</string>
+    <string name="restart_systemui_failed">Failed to restart SystemUI. Check root access.</string>
 </resources>

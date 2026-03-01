@@ -1,10 +1,29 @@
-## 直接允许ColorOS通过USB一线通连接外部显示器,无需二次确认
-一加13 15.0.0.204、15.0.0.821 测试通过
+# Skip Display Confirmation (LSPosed)
 
-开启后不生效请重启
+An LSPosed module for Oplus/OxygenOS that automatically confirms the USB external display connection dialog in SystemUI.
 
-## 问题
-如果有问题可以到我的仓库https://github.com/dixtdf/dixtdf.github.io 提issue
+## Features
 
-## 说明
-本程序仅供学习交流使用,禁止用于商业用途,请在法律允许的范围内使用
+- Hooks `com.android.systemui` display connection flow.
+- Automatically confirms the "Cast/Project screen" dialog.
+- Removes the need for manual confirmation every time.
+
+## Tested
+
+- Device: OnePlus 13 (`CPH2653`)
+- ROM: OxygenOS `16.0.3.501`
+- LSPosed scope: `com.android.systemui`
+
+If it does not work right after enabling, restart SystemUI or reboot the device.
+
+## Credits
+
+Huge thanks to the original author and repository:
+
+- https://github.com/Xposed-Modules-Repo/io.github.dixtdf.oplus.display
+
+This fork is based on the original implementation with compatibility adjustments for newer OxygenOS builds.
+
+## Disclaimer
+
+This project is provided for educational and research purposes only. Use it at your own risk and in compliance with local laws.

@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "io.github.dixtdf.oplus.display"
+    namespace = "io.github.y9hack337.oplus.display"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "io.github.dixtdf.oplus.display"
+        applicationId = "io.github.y9hack337.oplus.display"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
